@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "1A",
+      "image": "https://tmart-8.myshopify.com/cdn/shop/products/04_cd10a204-6265-416d-a026-5f9ef75f611d_grande.jpg?v=1517554070",
+      "name": "Utility Green Chew Bag",
+      "price": 1000000,
+      "description": "Tas warna green army ini dirancang untuk kamu yang mencari gaya klasik namun tetap modern. Terbuat dari bahan berkualitas tinggi yang tahan lama, tas ini menawarkan ruang yang luas dan berbagai kompartemen untuk menyimpan kebutuhan sehari-hari, mulai dari dompet, ponsel, hingga kosmetik. Desain minimalis dengan sentuhan warna green army memberikan kesan tegas dan elegan, cocok dipadukan dengan berbagai gaya pakaian. Ideal untuk aktivitas sehari-hari atau acara spesial, tas ini akan menjadi pilihan tepat bagi kamu yang mengutamakan kenyamanan dan gaya!",
+      "variants": ["green", "blue"]
+    },
+    {
+      "id": "2B",
+      "image": "https://xelltechnology.com/wp-content/uploads/2022/04/dummy6.jpg",
+      "name": "Uni T-Shirt Green",
+      "price": 1500000,
+      "description": "Kaos tshirt berwarna hijau muda ini adalah pilihan sempurna untuk gaya santai dan fresh! Dibuat dari bahan katun berkualitas tinggi yang lembut dan menyerap keringat, kaos ini nyaman dipakai sepanjang hari, terutama di cuaca panas. Warna hijau muda memberikan nuansa cerah dan segar yang mudah dipadukan dengan berbagai pilihan celana atau rok favorit kamu. Dengan desain yang simpel dan potongan yang pas, kaos ini cocok untuk kamu yang ingin tampil stylish tanpa usaha berlebih. Baik untuk acara santai, hangout, atau sekadar beraktivitas sehari-hari, kaos hijau muda ini siap melengkapi gaya casual kamu!",
+      "variants": []
+    },
+    {
+      "id": "3C",
+      "image": "https://demo2.wpthemego.com/themes/sw_himarket/wp-content/uploads/2016/04/1.jpg",
+      "name": "Tas Ransel Perempuan Biru Muda",
+      "price": 1600000,
+      "description": "Tas ransel berwarna biru muda ini hadir dengan desain modern dan feminin yang cocok untuk melengkapi gaya sehari-hari. Terbuat dari bahan berkualitas yang ringan dan tahan lama, tas ini menawarkan kapasitas yang luas untuk membawa berbagai kebutuhan, seperti laptop, buku, hingga perlengkapan makeup. Dilengkapi dengan kantong tambahan untuk penyimpanan yang lebih rapi dan tali punggung yang empuk, tas ini sangat nyaman digunakan meski untuk aktivitas seharian. Dengan warna biru muda yang lembut, tas ini memberikan kesan fresh dan elegan, mudah dipadukan dengan berbagai outfit, mulai dari casual hingga semi-formal. Cocok untuk kuliah, bekerja, atau jalan-jalan, tas ransel ini adalah pilihan sempurna untuk kamu yang mengutamakan gaya dan kenyamanan!",
+      "variants": []
+    },
+    {
+      "id": "4D",
+      "image": "https://demo2.wpthemego.com/themes/sw_himarket/wp-content/uploads/2016/04/29.jpg",
+      "name": "Tas Jinjing Biru Muda",
+      "price": 2300000,
+      "description": "Tas jinjing berwarna biru muda ini adalah pilihan sempurna untuk kamu yang menginginkan sentuhan feminin dengan fungsionalitas tinggi. Dibuat dari bahan premium yang tahan lama, tas ini memiliki kompartemen utama yang luas, cukup untuk menyimpan dompet, ponsel, kosmetik, hingga tablet atau buku favoritmu. Dilengkapi dengan kantong kecil di bagian dalam untuk barang-barang kecil, membuatnya lebih praktis dan terorganisir. Warna biru muda yang lembut memberikan kesan manis dan stylish, cocok untuk berbagai acara, mulai dari hangout, berbelanja, hingga acara semi-formal. Tas ini juga mudah dipadukan dengan berbagai gaya, membuatmu tampil percaya diri di setiap kesempatan!",
+      "variants": []
+    },
+    {
+      "id": "1A",
+      "image": "https://tmart-8.myshopify.com/cdn/shop/products/04_cd10a204-6265-416d-a026-5f9ef75f611d_grande.jpg?v=1517554070",
+      "name": "Utility Green Chew Bag",
+      "price": 1000000,
+      "description": "Tas warna green army ini dirancang untuk kamu yang mencari gaya klasik namun tetap modern. Terbuat dari bahan berkualitas tinggi yang tahan lama, tas ini menawarkan ruang yang luas dan berbagai kompartemen untuk menyimpan kebutuhan sehari-hari, mulai dari dompet, ponsel, hingga kosmetik. Desain minimalis dengan sentuhan warna green army memberikan kesan tegas dan elegan, cocok dipadukan dengan berbagai gaya pakaian. Ideal untuk aktivitas sehari-hari atau acara spesial, tas ini akan menjadi pilihan tepat bagi kamu yang mengutamakan kenyamanan dan gaya!",
+      "variants": ["green", "blue"]
+    },
+    {
+      "id": "2B",
+      "image": "https://xelltechnology.com/wp-content/uploads/2022/04/dummy6.jpg",
+      "name": "Uni T-Shirt Green",
+      "price": 1500000,
+      "description": "Kaos tshirt berwarna hijau muda ini adalah pilihan sempurna untuk gaya santai dan fresh! Dibuat dari bahan katun berkualitas tinggi yang lembut dan menyerap keringat, kaos ini nyaman dipakai sepanjang hari, terutama di cuaca panas. Warna hijau muda memberikan nuansa cerah dan segar yang mudah dipadukan dengan berbagai pilihan celana atau rok favorit kamu. Dengan desain yang simpel dan potongan yang pas, kaos ini cocok untuk kamu yang ingin tampil stylish tanpa usaha berlebih. Baik untuk acara santai, hangout, atau sekadar beraktivitas sehari-hari, kaos hijau muda ini siap melengkapi gaya casual kamu!",
+      "variants": []
+    },
+    {
+      "id": "3C",
+      "image": "https://demo2.wpthemego.com/themes/sw_himarket/wp-content/uploads/2016/04/1.jpg",
+      "name": "Tas Ransel Perempuan Biru Muda",
+      "price": 1600000,
+      "description": "Tas ransel berwarna biru muda ini hadir dengan desain modern dan feminin yang cocok untuk melengkapi gaya sehari-hari. Terbuat dari bahan berkualitas yang ringan dan tahan lama, tas ini menawarkan kapasitas yang luas untuk membawa berbagai kebutuhan, seperti laptop, buku, hingga perlengkapan makeup. Dilengkapi dengan kantong tambahan untuk penyimpanan yang lebih rapi dan tali punggung yang empuk, tas ini sangat nyaman digunakan meski untuk aktivitas seharian. Dengan warna biru muda yang lembut, tas ini memberikan kesan fresh dan elegan, mudah dipadukan dengan berbagai outfit, mulai dari casual hingga semi-formal. Cocok untuk kuliah, bekerja, atau jalan-jalan, tas ransel ini adalah pilihan sempurna untuk kamu yang mengutamakan gaya dan kenyamanan!",
+      "variants": []
+    },
+    {
+      "id": "4D",
+      "image": "https://demo2.wpthemego.com/themes/sw_himarket/wp-content/uploads/2016/04/29.jpg",
+      "name": "Tas Jinjing Biru Muda",
+      "price": 2300000,
+      "description": "Tas jinjing berwarna biru muda ini adalah pilihan sempurna untuk kamu yang menginginkan sentuhan feminin dengan fungsionalitas tinggi. Dibuat dari bahan premium yang tahan lama, tas ini memiliki kompartemen utama yang luas, cukup untuk menyimpan dompet, ponsel, kosmetik, hingga tablet atau buku favoritmu. Dilengkapi dengan kantong kecil di bagian dalam untuk barang-barang kecil, membuatnya lebih praktis dan terorganisir. Warna biru muda yang lembut memberikan kesan manis dan stylish, cocok untuk berbagai acara, mulai dari hangout, berbelanja, hingga acara semi-formal. Tas ini juga mudah dipadukan dengan berbagai gaya, membuatmu tampil percaya diri di setiap kesempatan!",
+      "variants": []
+    },
+    {
+      "id": "1A",
+      "image": "https://tmart-8.myshopify.com/cdn/shop/products/04_cd10a204-6265-416d-a026-5f9ef75f611d_grande.jpg?v=1517554070",
+      "name": "Utility Green Chew Bag",
+      "price": 1000000,
+      "description": "Tas warna green army ini dirancang untuk kamu yang mencari gaya klasik namun tetap modern. Terbuat dari bahan berkualitas tinggi yang tahan lama, tas ini menawarkan ruang yang luas dan berbagai kompartemen untuk menyimpan kebutuhan sehari-hari, mulai dari dompet, ponsel, hingga kosmetik. Desain minimalis dengan sentuhan warna green army memberikan kesan tegas dan elegan, cocok dipadukan dengan berbagai gaya pakaian. Ideal untuk aktivitas sehari-hari atau acara spesial, tas ini akan menjadi pilihan tepat bagi kamu yang mengutamakan kenyamanan dan gaya!",
+      "variants": ["green", "blue"]
+    },
+    {
+      "id": "2B",
+      "image": "https://xelltechnology.com/wp-content/uploads/2022/04/dummy6.jpg",
+      "name": "Uni T-Shirt Green",
+      "price": 1500000,
+      "description": "Kaos tshirt berwarna hijau muda ini adalah pilihan sempurna untuk gaya santai dan fresh! Dibuat dari bahan katun berkualitas tinggi yang lembut dan menyerap keringat, kaos ini nyaman dipakai sepanjang hari, terutama di cuaca panas. Warna hijau muda memberikan nuansa cerah dan segar yang mudah dipadukan dengan berbagai pilihan celana atau rok favorit kamu. Dengan desain yang simpel dan potongan yang pas, kaos ini cocok untuk kamu yang ingin tampil stylish tanpa usaha berlebih. Baik untuk acara santai, hangout, atau sekadar beraktivitas sehari-hari, kaos hijau muda ini siap melengkapi gaya casual kamu!",
+      "variants": []
+    },
+    {
+      "id": "3C",
+      "image": "https://demo2.wpthemego.com/themes/sw_himarket/wp-content/uploads/2016/04/1.jpg",
+      "name": "Tas Ransel Perempuan Biru Muda",
+      "price": 1600000,
+      "description": "Tas ransel berwarna biru muda ini hadir dengan desain modern dan feminin yang cocok untuk melengkapi gaya sehari-hari. Terbuat dari bahan berkualitas yang ringan dan tahan lama, tas ini menawarkan kapasitas yang luas untuk membawa berbagai kebutuhan, seperti laptop, buku, hingga perlengkapan makeup. Dilengkapi dengan kantong tambahan untuk penyimpanan yang lebih rapi dan tali punggung yang empuk, tas ini sangat nyaman digunakan meski untuk aktivitas seharian. Dengan warna biru muda yang lembut, tas ini memberikan kesan fresh dan elegan, mudah dipadukan dengan berbagai outfit, mulai dari casual hingga semi-formal. Cocok untuk kuliah, bekerja, atau jalan-jalan, tas ransel ini adalah pilihan sempurna untuk kamu yang mengutamakan gaya dan kenyamanan!",
+      "variants": []
+    },
+    {
+      "id": "4D",
+      "image": "https://demo2.wpthemego.com/themes/sw_himarket/wp-content/uploads/2016/04/29.jpg",
+      "name": "Tas Jinjing Biru Muda",
+      "price": 2300000,
+      "description": "Tas jinjing berwarna biru muda ini adalah pilihan sempurna untuk kamu yang menginginkan sentuhan feminin dengan fungsionalitas tinggi. Dibuat dari bahan premium yang tahan lama, tas ini memiliki kompartemen utama yang luas, cukup untuk menyimpan dompet, ponsel, kosmetik, hingga tablet atau buku favoritmu. Dilengkapi dengan kantong kecil di bagian dalam untuk barang-barang kecil, membuatnya lebih praktis dan terorganisir. Warna biru muda yang lembut memberikan kesan manis dan stylish, cocok untuk berbagai acara, mulai dari hangout, berbelanja, hingga acara semi-formal. Tas ini juga mudah dipadukan dengan berbagai gaya, membuatmu tampil percaya diri di setiap kesempatan!",
+      "variants": []
+    }
+  ]
+}
