@@ -19,9 +19,9 @@ const Navigation = () => {
         <span className={styles.hamburgerLine}></span>
       </button>
       <ul className={`${styles.navLinks} ${isOpen ? styles.open : ''}`}>
-        <li><Link href="/">Catalog</Link></li>
-        <li><Link href="/about">About</Link></li>
-        <li><Link href="/contact">Contact</Link></li>
+        <li><Link onClick={toggleMenu} href="/">Catalog</Link></li>
+        <li><Link onClick={toggleMenu} href="/about">About</Link></li>
+        <li><Link onClick={toggleMenu} href="/contact">Contact</Link></li>
       </ul>
     </nav>
   );
