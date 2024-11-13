@@ -16,6 +16,15 @@
       padding: 10px;
       text-align: center;
       margin: 4px;
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeInUp 0.5s forwards;
+      transition: transform 0.2s ease;
+      &:hover {
+        transition: transform 0.2s ease;
+        transform: scale(1.09);
+        background-color: #edeff3;
+      }
       h2 {
         color: black;
         white-space: nowrap;
@@ -26,5 +35,12 @@
       p {
         color: black;
       }
+    }
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
   }

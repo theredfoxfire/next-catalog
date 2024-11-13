@@ -1,7 +1,7 @@
 import Link from "next/link";
-import styles from "../styles/catalog.module.scss";
-import { ProductType } from "../entities/product";
-import { currencyFormatter } from "../utils/numbers";
+import styles from "@/src/styles/catalog.module.scss";
+import { ProductType } from "@/src/entities/product";
+import { currencyFormatter } from "@/src/utils/numbers";
 import ProductImage from "./ProductImage";
 
 export type ProductCardProps = {

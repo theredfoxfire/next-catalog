@@ -1,9 +1,14 @@
+import dynamic from "next/dynamic";
 import { type GetServerSidePropsContext } from "next";
 import { type ParsedUrlQuery } from "querystring";
-import ProductDetail from "@/src/components/ProductDetail";
 import { type ProductType } from "@/src/entities/product";
 import { productMachine } from "@/src/machines/productMachine";
 import { useMachine } from "@xstate/react";
+
+// lazzy loading component
+const ProductDetail = dynamic(() => import('@/src/components/product/ProductDetail'), {
+    ssr: false, 
+  });
 
 interface Params extends ParsedUrlQuery {
   id: string;

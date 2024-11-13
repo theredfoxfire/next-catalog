@@ -1,0 +1,29 @@
+.slider {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    .slide {
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      &.activeSlide {
+        opacity: 1;
+      }
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .leftArrow, .rightArrow {
+      position: absolute;
+      top: 50%;
+      font-size: 2rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .leftArrow { left: 10px; }
+    .rightArrow { right: 10px; }
+  }
+  

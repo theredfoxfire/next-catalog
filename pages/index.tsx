@@ -1,6 +1,11 @@
-import ProductCard from "@/src/components/ProductCard";
+import dynamic from 'next/dynamic';
 import { ProductType } from "@/src/entities/product";
 import styles from "@/src/styles/catalog.module.scss";
+
+// lazzy loading component
+const ProductCard = dynamic(() => import('@/src/components/product/ProductCard'), {
+  ssr: false, 
+});
 
 export async function getServerSideProps() {
   const res = await fetch(process.env.NEXT_PUBLIC_API_URL + "/products");
@@ -18,7 +23,7 @@ export default function CatalogPage({ products }: CatalogProps) {
     <div className={styles.catalog}>
       <h1>Product Catalog</h1>
       <div className={styles.productList}>
-        {/** Need do this because limitation of https://my-json-server.typicode.com/*/}
+        {/** Need do this because limitation of max 10000 chars https://my-json-server.typicode.com/*/}
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
