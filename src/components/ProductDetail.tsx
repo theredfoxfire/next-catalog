@@ -1,7 +1,7 @@
-import styles from '../styles/productDetail.module.scss';
-import { type ProductType } from '../entities/product';
-import { type ProductMachineEvent, type ProductMachineState } from '../machines/productMachine';
-import { rupiahFormatter } from '../utils/numbers';
+import styles from '@/src/styles/productDetail.module.scss';
+import { type ProductType } from '@/src/entities/product';
+import { type ProductMachineEvent, type ProductMachineState } from '@/src/machines/productMachine';
+import { rupiahFormatter } from '@/src/utils/numbers';
 
 export type ProductDetailProps = {
     product: ProductType;

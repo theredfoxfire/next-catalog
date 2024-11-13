@@ -1,9 +1,9 @@
+import { type GetServerSidePropsContext } from "next";
+import { type ParsedUrlQuery } from "querystring";
 import ProductDetail from "@/src/components/ProductDetail";
 import { type ProductType } from "@/src/entities/product";
 import { productMachine } from "@/src/machines/productMachine";
 import { useMachine } from "@xstate/react";
-import { type GetServerSidePropsContext } from "next";
-import { type ParsedUrlQuery } from "querystring";
 
 interface Params extends ParsedUrlQuery {
   id: string;

@@ -14,7 +14,7 @@
       "name": "Uni T-Shirt Green",
       "price": 1500000,
       "description": "Kaos tshirt berwarna hijau muda ini adalah pilihan sempurna untuk gaya santai dan fresh!",
-      "variants": []
+      "variants": ["dark-choco", "classic-red"]
     }
   ]
 }

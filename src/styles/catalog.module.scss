@@ -1,14 +1,29 @@
 .catalog {
     padding: 20px;
     .productList {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    a {
+      text-decoration: none;
     }
     .card {
-      background: #fff;
-      border: 1px solid #ddd;
+      background: #fbfbfb;
+      border-radius: 4px;
+      width: 250px;
       padding: 10px;
       text-align: center;
+      margin: 4px;
+      h2 {
+        color: black;
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      p {
+        color: black;
+      }
     }
   }
