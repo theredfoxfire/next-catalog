@@ -1,7 +1,7 @@
 import styles from '@/src/styles/productDetail.module.scss';
 import { type ProductType } from '@/src/entities/product';
 import { type ProductMachineEvent, type ProductMachineState } from '@/src/machines/productMachine';
-import { rupiahFormatter } from '@/src/utils/numbers';
+import { currencyFormatter } from '@/src/utils/numbers';
 
 export type ProductDetailProps = {
     product: ProductType;
@@ -15,7 +15,7 @@ const ProductDetail = ({ product }: ProductDetailProps) => {
       <img src={product.image} alt={product.name} className={styles.productImage} />
       <div className={styles.info}>
         <h1>{product.name}</h1>
-        <p className={styles.price}>{rupiahFormatter(product.price)}</p>
+        <p className={styles.price}>{currencyFormatter({value: product.price})}</p>
         <p>{product.description}</p>
         {product.variants && (
           <div className={styles.variants}>

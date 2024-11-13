@@ -1,7 +1,15 @@
-export const rupiahFormatter = (number: number) => {
-    return new Intl.NumberFormat('id-ID', {
-        style: 'currency',
-        currency: 'IDR',
-        minimumFractionDigits: 0
-    }).format(number);
-}
+export const currencyFormatter = ({
+  value,
+  numberFormat = "id-ID",
+  currency = "IDR",
+}: {
+  value: number;
+  numberFormat?: string;
+  currency?: string;
+}) => {
+  return new Intl.NumberFormat(numberFormat, {
+    style: "currency",
+    currency: currency,
+    minimumFractionDigits: 0,
+  }).format(value);
+};
