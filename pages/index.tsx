@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic';
 import { ProductType } from "@/src/entities/product";
 import styles from "@/src/styles/catalog.module.scss";
+import { envConfigs } from '@/src/utils/configs';
 
 // lazzy loading component
 const ProductCard = dynamic(() => import('@/src/components/product/ProductCard'), {
@@ -8,7 +9,7 @@ const ProductCard = dynamic(() => import('@/src/components/product/ProductCard')
 });
 
 export async function getServerSideProps() {
-  const res = await fetch(process.env.NEXT_PUBLIC_API_URL + "/products");
+  const res = await fetch(envConfigs.NEXT_PUBLIC_API_URL + "/products");
   const products = await res.json();
 
   return { props: { products } };

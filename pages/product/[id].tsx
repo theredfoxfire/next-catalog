@@ -4,6 +4,7 @@ import { type ParsedUrlQuery } from "querystring";
 import { type ProductType } from "@/src/entities/product";
 import { productMachine } from "@/src/machines/productMachine";
 import { useMachine } from "@xstate/react";
+import { envConfigs } from "@/src/utils/configs";
 
 // lazzy loading component
 const ProductDetail = dynamic(() => import('@/src/components/product/ProductDetail'), {
@@ -18,7 +19,7 @@ export async function getServerSideProps({
   params,
 }: GetServerSidePropsContext<Params>) {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/products/${params?.id}`
+    `${envConfigs.NEXT_PUBLIC_API_URL}/products/${params?.id}`
   );
   const product = await res.json();
   return { props: { product } };
