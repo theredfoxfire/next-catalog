@@ -1,22 +1,24 @@
-import { createMachine, type StateFrom, type EventFrom } from 'xstate';
+import { createMachine, assign } from 'xstate';
 
-export const productMachine = createMachine({
-  id: 'product',
-  initial: 'idle',
+const productMachine = createMachine({
+  id: 'productMachine',
+  initial: 'active',
+  context: {
+    product: null,
+  },
   states: {
-    idle: {
-      on: { FETCH: 'loading' }
-    },
-    loading: {
+    active: {
       on: {
-        RESOLVE: 'success',
-        REJECT: 'error'
-      }
+        SET_PRODUCT: {
+          actions: assign({
+            product: ({context, event}) => event.product,
+          }),
+        },
+        RESET_PRODUCT: {
+          actions: assign({ product: (_) => null }),
+        },
+      },
     },
-    success: {},
-    error: {}
-  }
+  },
 });
-
-export type ProductMachineState = StateFrom<typeof productMachine>;
-export type ProductMachineEvent = EventFrom<typeof productMachine>;
+export {productMachine};

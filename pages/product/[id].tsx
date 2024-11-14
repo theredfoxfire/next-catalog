@@ -5,6 +5,7 @@ import { type ProductType } from "@/src/entities/product";
 import { productMachine } from "@/src/machines/productMachine";
 import { useMachine } from "@xstate/react";
 import { envConfigs } from "@/src/utils/configs";
+import { useEffect } from "react";
 
 // lazzy loading component
 const ProductDetail = dynamic(() => import('@/src/components/product/ProductDetail'), {
@@ -32,7 +33,15 @@ export type ProductPageProps = {
 export default function ProductPage({ product }: ProductPageProps) {
   const [state, send] = useMachine(productMachine);
 
+  useEffect(() => {
+    send({type: 'SET_PRODUCT', product: product});
+  }, []);
+
+  if (!state.context.product) {
+    return <>Loading...</>
+  }
+
   return (
-      <ProductDetail product={product} state={state} send={send} />
+      <ProductDetail product={state.context.product || {} as ProductType} />
   );
 }

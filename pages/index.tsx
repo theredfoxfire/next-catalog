@@ -2,6 +2,9 @@ import dynamic from 'next/dynamic';
 import { ProductType } from "@/src/entities/product";
 import styles from "@/src/styles/catalog.module.scss";
 import { envConfigs } from '@/src/utils/configs';
+import { useMachine } from '@xstate/react';
+import { catalogMachine } from '@/src/machines/catalogMachine';
+import { useEffect } from 'react';
 
 // lazzy loading component
 const ProductCard = dynamic(() => import('@/src/components/product/ProductCard'), {
@@ -20,6 +23,15 @@ export type CatalogProps = {
 };
 
 export default function CatalogPage({ products }: CatalogProps) {
+  const [state, send] = useMachine(catalogMachine);
+
+  useEffect(() => {
+    send({type: 'SET_PRODUCTS', products: products});
+  }, []);
+
+  if (!state.context.products) {
+    return <>Loading...</>
+  }
   return (
     <div className={styles.catalog}>
       <h1>Product Catalog</h1>
