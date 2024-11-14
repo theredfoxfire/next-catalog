@@ -29,7 +29,9 @@ export default function CatalogPage({ products }: CatalogProps) {
     send({type: 'SET_PRODUCTS', products: products});
   }, []);
 
-  if (!state.context.products) {
+  const productData = state?.context?.products as ProductType[];
+
+  if (!productData) {
     return <>Loading...</>
   }
   return (
@@ -37,16 +39,16 @@ export default function CatalogPage({ products }: CatalogProps) {
       <h1>Product Catalog</h1>
       <div className={styles.productList}>
         {/** Need do this because limitation of max 10000 chars https://my-json-server.typicode.com/*/}
-        {products.map((product) => (
+        {productData.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
-        {products.map((product) => (
+        {productData.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
-        {products.map((product) => (
+        {productData.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
-        {products.map((product) => (
+        {productData.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>

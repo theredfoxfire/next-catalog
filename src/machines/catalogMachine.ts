@@ -4,7 +4,7 @@ const catalogMachine = createMachine({
   id: 'catalogMachine',
   initial: 'active',
   context: {
-    products: null,
+    products: [],
   },
   states: {
     active: {
@@ -15,7 +15,7 @@ const catalogMachine = createMachine({
           }),
         },
         RESET_PRODUCTS: {
-          actions: assign({ products: () => null }),
+          actions: assign({ products: () => [] }),
         },
       },
     },
