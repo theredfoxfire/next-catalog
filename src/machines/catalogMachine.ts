@@ -11,11 +11,11 @@ const catalogMachine = createMachine({
       on: {
         SET_PRODUCTS: {
           actions: assign({
-            products: ({context, event}) => event.products,
+            products: ({event}) => event.products,
           }),
         },
         RESET_PRODUCTS: {
-          actions: assign({ products: (_) => null }),
+          actions: assign({ products: () => null }),
         },
       },
     },
