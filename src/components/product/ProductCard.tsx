@@ -6,11 +6,13 @@ import ProductImage from "./ProductImage";
 
 export type ProductCardProps = {
     product: ProductType;
+    isSale?: boolean;
 }
 
-const ProductCard = ({ product }: ProductCardProps) => (
+const ProductCard = ({ product, isSale }: ProductCardProps) => (
   <Link href={`/product/${product.id}`}>
     <div className={styles.card}>
+      {isSale && <div className={styles.saleTag}>sale</div>}
       <ProductImage width="100%" height="250px" src={product.image} />
       <h2>{product.name}</h2>
       <p>{currencyFormatter({value: product.price})}</p>
