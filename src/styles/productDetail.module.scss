@@ -33,4 +33,23 @@
         }
       }
     }
+    .btnBuyContainer {
+      width: 100%;
+      padding: 8px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      .btnBuy {
+        padding: 8px;
+        color: black;
+        border: solid 1px black;
+        font-weight: 400;
+        position: absolute;
+        width: 200px;
+        bottom: 0px;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+    
   }

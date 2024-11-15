@@ -24,6 +24,9 @@ const ProductDetail = ({ product }: ProductDetailProps) => {
             ))}
           </div>
         )}
+        <div className={styles.btnBuyContainer}>
+          <div className={styles.btnBuy}>Add to cart</div>
+        </div>
       </div>
     </div>
   );

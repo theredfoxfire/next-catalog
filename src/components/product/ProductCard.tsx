@@ -16,6 +16,7 @@ const ProductCard = ({ product, isSale }: ProductCardProps) => (
       <ProductImage width="100%" height="250px" src={product.image} />
       <h2>{product.name}</h2>
       <p>{currencyFormatter({value: product.price})}</p>
+      <div className={styles.btnBuy}>Add to cart</div>
     </div>
   </Link>
 );
