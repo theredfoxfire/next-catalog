@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { getProductsService } from "@/src/services/catalogService";
 
 // lazzy loading component
-const ProductCaatalog = dynamic(
+const ProductCatalog = dynamic(
   () => import("@/src/components/product/ProductCatalog"),
   {
     ssr: false,
@@ -38,6 +38,6 @@ export default function CatalogPage({ products }: CatalogProps) {
     return <>Loading...</>;
   }
   return (
-    <ProductCaatalog products={productsStateData} />
+    <ProductCatalog products={productsStateData} />
   );
 }
